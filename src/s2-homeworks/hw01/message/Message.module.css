@@ -1,0 +1,41 @@
+.message {
+    display: flex;
+    margin: 30px;
+    width: 300px;
+    height: 150px;
+    border: solid black 2px;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.imageAndText {
+
+}
+
+.imageAndText img {
+    width: 50px;
+    height: 50px;
+}
+
+.text {
+    min-width: 150px;
+    max-width: 300px;
+
+}
+
+.text:after {
+
+}
+
+.name {
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.messageText {
+}
+
+.time {
+
+}
