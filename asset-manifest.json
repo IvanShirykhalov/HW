@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/HW/static/css/main.cd573c80.css",
-    "main.js": "/HW/static/js/main.96a7e791.js",
+    "main.css": "/HW/static/css/main.aaa2687a.css",
+    "main.js": "/HW/static/js/main.66cff1d0.js",
     "static/js/787.66cb4309.chunk.js": "/HW/static/js/787.66cb4309.chunk.js",
     "static/media/avatar.png": "/HW/static/media/avatar.d947cb9d0d13765666b6.png",
     "static/media/200.svg": "/HW/static/media/200.96248f7df0dde10e0a82ac30418f50bc.svg",
@@ -12,14 +12,15 @@
     "static/media/closeOutline.svg": "/HW/static/media/closeOutline.b64ba402fac8a549bc2de97e9cf84a61.svg",
     "static/media/editIcon.svg": "/HW/static/media/editIcon.0a0cefd2190b593b4f76bb1a5afe0c1f.svg",
     "static/media/checked.svg": "/HW/static/media/checked.b75ca55e8759862b4083.svg",
+    "static/media/Dual Ring-1.7s-200px.svg": "/HW/static/media/Dual Ring-1.7s-200px.3911b807dc9d01ec1ac85a92923025e4.svg",
     "index.html": "/HW/index.html",
     "static/media/burger.svg": "/HW/static/media/burger.700e416f7bfe3697f96b36c778d25355.svg",
-    "main.cd573c80.css.map": "/HW/static/css/main.cd573c80.css.map",
-    "main.96a7e791.js.map": "/HW/static/js/main.96a7e791.js.map",
+    "main.aaa2687a.css.map": "/HW/static/css/main.aaa2687a.css.map",
+    "main.66cff1d0.js.map": "/HW/static/js/main.66cff1d0.js.map",
     "787.66cb4309.chunk.js.map": "/HW/static/js/787.66cb4309.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cd573c80.css",
-    "static/js/main.96a7e791.js"
+    "static/css/main.aaa2687a.css",
+    "static/js/main.66cff1d0.js"
   ]
 }
