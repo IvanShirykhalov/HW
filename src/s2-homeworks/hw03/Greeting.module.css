@@ -1,70 +1,102 @@
 .greetingForm {
+    padding-left: 70px;
+    font-family: 'Montserrat', sans-serif;
+
 }
 
 .inputAndButtonContainer {
+    font-family: 'Montserrat', sans-serif;
     display: flex;
-    gap: 12px;
-    margin: 10px 0 10px 0;
-}
-
-.inputAndButtonContainer div{
-    height: 100%;
 }
 
 .error {
-    color: #cc0000;
+    color: #CC0000;
+    font-family: 'Montserrat', sans-serif;
+
 }
 
 .input {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    padding: 10px;
     border: 1px solid #D1D1D1;
-    box-sizing: border-box;
     border-radius: 5px;
-    line-height: 36px;
+    width: 372px;
+    height: 36px;
+    outline: 0;
+    font-weight: 500;
+    font-size: 16px;
+
 }
 
 .input:focus {
+    border: 1px solid #D1D1D1;
+    border-radius: 5px;
+    width: 372px;
+    height: 36px;
+    outline: 0;
+
 }
 
 .errorInput {
-    border: 1px solid red;
+    border: 1px solid #CC0000;
+    border-radius: 5px;
+    width: 372px;
+    height: 36px;
+    outline: 0;
 }
 
 .button {
-    height: 36px;
-    width: 78px;
-    border-radius: 3px;
+    margin-left: 12px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     padding: 5px 24px;
-    color: white;
-    background-color: #0066cc;
+    width: 78px;
+    height: 36px;
+    background: #0066CC;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 3px;
 }
 
 .button:focus {
+    width: 78px;
+    height: 36px;
+    background: #0066CC;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 3px;
 }
 
 .button:active {
-    opacity: 50%;
-    background-color: #0066cc;
+    background:#0066CC;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 3px;
 }
 
 .button:disabled {
+    background: #5da3ea;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 3px;
 }
 
 .text {
-    font-family: 'Montserrat', sans-serif;
+    color: #000000;
     font-size: 14px;
-    font-weight: 400;
+    margin-bottom: 10px;
     font-style: normal;
-    fill: rgba(0, 0, 0, 0.5);
-    opacity: 50%;
+    font-weight: 400;
+    line-height: 17px;
 }
 
 .greeting {
-    font-family: 'Montserrat', sans-serif;
+    color: #000000;
     font-size: 14px;
-    font-weight: bold;
+    margin-bottom: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 17px;
+    margin-top: 10px;
+
+
 }
