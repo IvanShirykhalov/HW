@@ -43,18 +43,12 @@ const SuperDebouncedInput: React.FC<SuperDebouncedInputPropsType> = (
         }
     }
 
-    const SuperInputTextStyle = {
-        width: '468px',
-        fontStyle: 'normal',
-        fontWeight: 400,
-        fontSize: '18px',
-        lineHeight: '21px'
-    }
+
 
 
     return (
         <SuperInputText onChangeText={onChangeTextCallback} {...restProps}
-                        style={SuperInputTextStyle}
+
         />
     )
 }
