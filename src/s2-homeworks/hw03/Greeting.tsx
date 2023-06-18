@@ -9,7 +9,7 @@ type GreetingPropsType = {
     onEnter: (e: KeyboardEvent<HTMLInputElement>) => void // need to fix any
     error: string // need to fix any
     totalUsers: number // need to fix any
-    lastUserName?: any // need to fix any
+    lastUserName?: string // need to fix any
 }
 
 // презентационная компонента (для верстальщика)
@@ -25,11 +25,14 @@ const Greeting: React.FC<GreetingPropsType> = (
         lastUserName,
     } // деструктуризация пропсов
 ) => {
-    const inputClass = s.errorInput ? s.errorInput : s.input // need to fix with (?:)
+
+    const inputClass = error ? s.errorInput : s.input // need to fix with (?:)
 
     return (
         <div id={'hw3-form'} className={s.greetingForm}>
+            <br/>
             <div className={s.text}>
+
                 {'Людей добавили: '}
                 <span id={'hw3-users-total'}>
                     {totalUsers}
@@ -57,7 +60,7 @@ const Greeting: React.FC<GreetingPropsType> = (
                     className={s.button}
                     disabled={!name.trim()}
                 >
-                    ADD
+                    Add
                 </button>
             </div>
 
